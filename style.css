@@ -1,0 +1,195 @@
+:root {
+  font-size: 30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-link {
+  color: rgba(0, 0, 0, 0.9);
+  letter-spacing: 1.5px;
+  font-size: 0.7rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+  max-width: 98%;
+  margin: auto;
+  width: 1780px;
+  border-bottom: 1px rgba(90, 90, 90, 0.452) solid;
+}
+.nav-link:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+#logo {
+  margin-left: 5%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav-link span:hover {
+  color: rgb(253, 0, 0);
+  text-shadow: rgb(253, 0, 0) 1px 0 12px;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 12px 10px;
+}
+.imgart {
+  margin-top: -9%;
+}
+.imgedit {
+  max-width: 90%;
+}
+.main-text {
+  margin-top: 5%;
+  font-size: 1.2rem;
+
+  letter-spacing: 5px;
+  line-height: 1.5;
+  color: rgb(41, 41, 41);
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+  font-family: "Ubuntu", sans-serif;
+}
+#xp {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+.main-body {
+  border-bottom: 1px rgba(0, 0, 0, 0.63) solid;
+  border-top: 1px solid rgba(0, 0, 0, 0.63);
+  border-left: 1px solid rgba(0, 0, 0, 0.63);
+  border-right: 1px solid rgba(0, 0, 0, 0.63);
+  border-radius: 12px;
+  max-width: 100%;
+  height: 604.27px;
+  background-color: rgba(113, 88, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+.next-text {
+  text-align: center;
+  margin-top: 4%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Ubuntu", sans-serif;
+
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+#xd {
+  color: black;
+  font-size: 20px;
+  font-family: "Permanent Marker", cursive;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.my-img {
+  width: 200px;
+  margin: 5% auto;
+}
+.columedits {
+  display: flex;
+  justify-content: center;
+  margin: 4% auto;
+
+  width: 1000px;
+  height: 800px;
+  border-radius: 12px;
+  max-width: 90%;
+}
+.col {
+  margin-top: 3%;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.imgedit {
+  margin-top: 6%;
+}
+.h1edit {
+  margin-top: 5%;
+  letter-spacing: 1px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+}
+.pedit {
+  letter-spacing: 1px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 0.6rem;
+
+  color: rgb(0, 0, 0);
+}
+.h2edit {
+  margin-top: 12%;
+  letter-spacing: 1px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+}
+.footer {
+  background-color: rgba(90, 90, 90, 0.452);
+  max-width: 100%;
+}
+.background {
+  margin-top: 5%;
+
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.856);
+}
+.phoneedit:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: red;
+}
+.emailedit:hover {
+  cursor: pointer;
+  color: rgb(31, 31, 138);
+  font-weight: bold;
+}
+.contacttext {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+}
+.footer {
+  background: white;
+  margin-top: 2%;
+  height: 4px;
+}
+@media (max-width: 846px) {
+  .navbar img {
+    position: relative;
+  }
+}
+@media (max-width: 862px) {
+  button {
+    float: right;
+  }
+}
+@media (max-width: 518px) {
+  .contacttext {
+    font-size: 0.8rem;
+  }
+}
