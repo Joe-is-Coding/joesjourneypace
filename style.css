@@ -12,13 +12,18 @@
   font-size: 0.7rem;
   font-family: "Ubuntu", sans-serif;
 }
-
+.navbar-burger-image {
+  opacity: 0;
+}
 .navbar {
   max-width: 98%;
   margin: auto;
   width: 1780px;
   border-bottom: 1px rgba(90, 90, 90, 0.452) solid;
-  box-shadow: 0px 4px 4px rgba(113, 88, 0, 0.9);
+  box-shadow: 0px 4px 4px rgba(48, 143, 4, 0.9);
+}
+.navbar:hover {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.856);
 }
 .nav-link:hover {
   color: rgb(0, 0, 0);
@@ -29,6 +34,10 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
     drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
     drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#logo:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 .nav-link span:hover {
@@ -41,8 +50,9 @@
   padding: 12px 10px;
 }
 .imgart {
-  margin-top: -9%;
+  margin-top: -5%;
 }
+
 .imgedit {
   max-width: 90%;
 }
@@ -63,10 +73,6 @@
   font-weight: 400;
 }
 .main-body {
-  border-bottom: 1px rgba(0, 0, 0, 0.63) solid;
-  border-top: 1px solid rgba(0, 0, 0, 0.63);
-  border-left: 1px solid rgba(0, 0, 0, 0.63);
-  border-right: 1px solid rgba(0, 0, 0, 0.63);
   border-radius: 12px;
   max-width: 100%;
   height: 604.27px;
@@ -77,10 +83,11 @@
   align-items: center;
   color: white;
   font-family: "Ubuntu", sans-serif;
-
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
   font-size: 0.7rem;
   letter-spacing: 1px;
 }
+
 .next-text {
   text-align: center;
   margin-top: 4%;
@@ -102,10 +109,6 @@
   margin: 5% auto;
 }
 .columedits {
-  display: flex;
-  justify-content: center;
-  margin: 4% auto;
-
   width: 1000px;
   height: 800px;
   border-radius: 12px;
@@ -115,6 +118,9 @@
   margin-top: 3%;
   border-radius: 12px;
   box-shadow: 0px 4px 4px rgba(113, 88, 0, 0.9);
+}
+.col:hover {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.856);
 }
 .imgedit {
   margin-top: 6%;
@@ -127,8 +133,11 @@
   font-size: 1rem;
   letter-spacing: 2px;
   color: rgb(0, 0, 0);
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
 }
 .pedit {
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+
   letter-spacing: 1px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -137,6 +146,8 @@
   color: rgb(0, 0, 0);
 }
 .h2edit {
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+
   margin-top: 12%;
   letter-spacing: 1px;
   font-family: "Ubuntu", sans-serif;
@@ -144,6 +155,10 @@
   font-size: 0.8rem;
   letter-spacing: 2px;
   color: rgb(0, 0, 0);
+}
+#imgsol:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 .footer {
   background-color: rgba(90, 90, 90, 0.452);
@@ -153,23 +168,20 @@
   margin-top: 5%;
 
   border-radius: 12px;
-  box-shadow: 0px 4px 4px rgba(101, 189, 0, 0.856);
+  box-shadow: 0px 4px 4px rgba(48, 143, 4, 0.9);
 }
 .background:hover {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.856);
 }
 
-.phoneedit:hover {
-  cursor: pointer;
-  font-weight: bold;
-  color: red;
-}
 .emailedit:hover {
   cursor: pointer;
   color: rgb(31, 31, 138);
   font-weight: bold;
 }
 .contacttext {
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+
   font-family: "Ubuntu", sans-serif;
   font-size: 1rem;
   font-weight: 300;
@@ -182,6 +194,12 @@ a {
   background: white;
   margin-top: 2%;
   height: 4px;
+}
+
+@media (max-width: 992px) {
+  .navbar-burger-image {
+    opacity: 1;
+  }
 }
 @media (max-width: 846px) {
   .navbar img {
@@ -196,5 +214,15 @@ a {
 @media (max-width: 518px) {
   .contacttext {
     font-size: 0.8rem;
+  }
+}
+@media (max-width: 402px) {
+  .main-body {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 306px) {
+  .main-body {
+    font-size: 0.4rem;
   }
 }
